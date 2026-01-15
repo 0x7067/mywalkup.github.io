@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies & Storage Policy - MyWalkup</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        h1 {
+            color: #1a1a1a;
+            border-bottom: 2px solid #007AFF;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1a1a1a;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #444;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #007AFF;
+        }
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        .contact-info {
+            background-color: #f5f5f7;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f5f5f7;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cookies & Storage Policy</h1>
+    <p class="last-updated">Last updated: January 15, 2026</p>
+
+    <p>This policy explains how MyWalkup uses local storage technologies on your device. As a native mobile application, we use secure on-device storage rather than traditional browser cookies.</p>
+
+    <h2>What We Store on Your Device</h2>
+
+    <h3>Secure Keychain Storage</h3>
+    <p>We use Apple's Keychain Services to securely store:</p>
+    <ul>
+        <li><strong>Authentication tokens</strong> - Keep you signed in between sessions</li>
+        <li><strong>Session credentials</strong> - Securely authenticate API requests</li>
+    </ul>
+    <p>Keychain data is encrypted by iOS and protected by your device passcode or biometrics.</p>
+
+    <h3>Local File Storage</h3>
+    <p>We cache certain files locally to improve performance:</p>
+    <ul>
+        <li><strong>Audio files</strong> - Walkup songs and AI-generated announcements are cached to reduce loading times and data usage</li>
+        <li><strong>Images</strong> - Profile photos and team logos are cached for faster display</li>
+    </ul>
+    <p>Cached files are stored in your device's temporary storage and may be automatically cleared by iOS when storage is low.</p>
+
+    <h3>App Preferences</h3>
+    <p>We store your preferences locally to remember your settings:</p>
+    <ul>
+        <li>Audio playback preferences</li>
+        <li>Notification settings</li>
+        <li>Display preferences</li>
+    </ul>
+
+    <h2>Third-Party Storage</h2>
+
+    <p>Some third-party services integrated into our app may store data locally:</p>
+
+    <table>
+        <tr>
+            <th>Service</th>
+            <th>Purpose</th>
+            <th>Data Stored</th>
+        </tr>
+        <tr>
+            <td>Firebase</td>
+            <td>Analytics & crash reporting</td>
+            <td>Anonymous usage identifiers</td>
+        </tr>
+        <tr>
+            <td>RevenueCat</td>
+            <td>Subscription management</td>
+            <td>Purchase verification tokens</td>
+        </tr>
+    </table>
+
+    <h2>How Long Data Is Stored</h2>
+    <ul>
+        <li><strong>Authentication tokens</strong> - Until you log out or they expire</li>
+        <li><strong>Cached audio/images</strong> - Up to 7 days, or until cleared by iOS</li>
+        <li><strong>Preferences</strong> - Until you uninstall the app or reset settings</li>
+    </ul>
+
+    <h2>Managing Stored Data</h2>
+    <p>You can control data stored on your device:</p>
+    <ul>
+        <li><strong>Log out</strong> - Clears your authentication tokens</li>
+        <li><strong>Delete account</strong> - Removes all your data from our servers (available in app settings)</li>
+        <li><strong>Uninstall the app</strong> - Removes all locally stored data</li>
+        <li><strong>Clear app cache</strong> - Go to iOS Settings → General → iPhone Storage → MyWalkup → Offload App</li>
+    </ul>
+
+    <h2>No Web Tracking Cookies</h2>
+    <p>MyWalkup is a native iOS application and does not use traditional web browser cookies for tracking. We do not track you across other apps or websites.</p>
+
+    <div class="contact-info">
+        <h2>Contact Us</h2>
+        <p>If you have questions about this policy or how we store data on your device, please contact us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:support@mywalkup.ai">support@mywalkup.ai</a></p>
+    </div>
+</body>
+</html>
